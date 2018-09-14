@@ -1,0 +1,33 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: snow;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  height: 200px;
+}
+nav a :not(:last-child) {
+  border-right: solid #333 1px;
+}
+
+body {
+  background-color: #eee;
+  color: #333;
+}
+
+h2 {
+  color: blue;
+}
+
+.jump-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

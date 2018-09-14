@@ -1,0 +1,20 @@
+$primary-color: #333;
+$primary-background-color: #eee;
+
+
+@import "./partials/nav";
+
+body {
+  background-color: $primary-background-color;
+  color: $primary-color;
+}
+
+h2 {
+  color: blue;
+}
+
+.jump-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
