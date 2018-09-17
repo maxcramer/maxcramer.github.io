@@ -3,13 +3,18 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: snow;
+    background-color: #C2DFE0;
+    color: white;
   }
   li {
     list-style: none;
-    padding: 0 10px;
+    padding: 5px;
+    color: white;
+    :hover {
+      color: blue;
+    }
     &:not(:last-child) {
-      border-right: solid $primary-color 1px;
+      border-right: solid white 1px;
     }
   }
   a {

@@ -1,5 +1,5 @@
-$primary-color: #333;
-$primary-background-color: #eee;
+$primary-color: white;
+$primary-background-color: white;
 
 
 @import "./partials/nav";
@@ -7,14 +7,69 @@ $primary-background-color: #eee;
 body {
   background-color: $primary-background-color;
   color: $primary-color;
+  align-items: center;
 }
 
 h2 {
-  color: blue;
+  color: white;
 }
 
 .jump-to-top {
-  position: fixed;
+  position: static;
   bottom: 0;
   right: 0;
+}
+
+.box {
+  display: flex;
+  background-color: #C2DFE0;
+  width: 95%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+
+#profileImg {
+  border-radius: 100%;
+  height: 200px;
+  float: right;
+  margin: 20px;
+  &:hover {
+    height: 400px;
+  }
+}
+
+#about {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.project {
+  background-color: #C2DFE0;
+  max-width: 300px;
+  border: 7px solid white;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 300px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;   
+  flex-flow: column;
 }
