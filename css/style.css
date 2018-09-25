@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-h2, h3, h4, li, a {
+h2, h3, h4, li, a, p {
   color: white;
 }
 
@@ -78,14 +78,14 @@ main {
   align-items: center;
 }
 
-p {
-  padding-left: 20px;
+.projAbout {
+  padding-left: 8px;
   color: white;
 }
 
 .project {
   background-color: #8FB9BB;
-  max-width: 220px;
+  max-width: 280px;
   border: 2.5px solid white;
   margin-left: 5px;
 }
