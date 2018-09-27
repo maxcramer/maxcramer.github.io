@@ -31,4 +31,18 @@ nav a {
   width: 50px;
 }
 
+.flexing {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+#profilePic {
+  max-height: 180px;
+}
+
+.softSkill {
+  padding-top: 13px;
+}
+
 /*# sourceMappingURL=style.css.map */
