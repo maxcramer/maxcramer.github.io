@@ -1,9 +1,12 @@
+
+
 nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #8FB9BB;
   color: white;
+  width: 100%;
 }
 nav li {
   list-style: none;
@@ -31,18 +34,57 @@ nav a {
   width: 50px;
 }
 
-.flexing {
-  display: flex;
-  align-items: stretch;
-  flex-wrap: nowrap;
-}
-
 #profilePic {
-  max-height: 180px;
+  max-height: 280px;
+  padding-left: 90px;
+  margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .softSkill {
   padding-top: 13px;
+}
+
+.skillTitlePadding {
+  padding-left: 88px;
+}
+
+.iconText {
+  font-size: 8px;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  padding-left: 88px;
+}
+
+hr {
+  width: 95%;
+  margin-left: 30px;
+}
+
+.aboutPadding {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.aboutTxtPadding {
+  padding-left: 50px;
+}
+
+p, h1, h2, h3, .title, li, i, a {
+  color: #8FB9BB;
+}
+
+.skillsRow, .otherRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillSectPadding {
+  padding-left: 88px;
 }
 
 /*# sourceMappingURL=style.css.map */
