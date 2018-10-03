@@ -1,4 +1,7 @@
-
+footer {
+  background-color: #8FB9BB;
+  color: white;
+}
 
 nav ul {
   display: flex;
