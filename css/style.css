@@ -30,7 +30,8 @@ nav a {
 }
 
 .bulmaIcon {
-  width: 80px;
+  max-width: 300px;
+  max-height: 20px;
 }
 
 .nodeIcon {
@@ -139,6 +140,7 @@ transition:translate .2s ease-in;
 
 #fest {
   padding-top: 25px;
+  padding-left: 60px;
   /* padding-left: 50px; */
 }
 
@@ -169,4 +171,6 @@ button:hover {
 .chai {
   max-width: 20px;
 }
+
+
 /*# sourceMappingURL=style.css.map */
