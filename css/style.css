@@ -59,7 +59,7 @@ nav a {
 } */
 
 .skillTitlePadding {
-  padding-left: 88px;
+  padding-left: 60px;
 }
 
 .iconText {
@@ -70,7 +70,7 @@ nav a {
 #skills {
   display: flex;
   flex-direction: row;
-  padding-left: 88px;
+  padding-left: 75px;
 }
 
 hr {
@@ -80,11 +80,15 @@ hr {
 
 .aboutPadding {
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 59px;
+}
+
+.contact {
+  padding-left: 66px;
 }
 
 .aboutTxtPadding {
-  padding-left: 50px;
+  padding-left: 78px;
 }
 
 p, h1, h2, h3, .title, li, i, a {
@@ -98,7 +102,7 @@ p, h1, h2, h3, .title, li, i, a {
 }
 
 .skillSectPadding {
-  padding-left: 86px;
+  padding-left: 70px;
 }
 
 /* @keyframes slider {
@@ -150,8 +154,8 @@ transition:translate .2s ease-in;
 
 #fest {
   height: 200px;
-  margin-bottom: 100px;
-  padding-left: 60px;
+  /* margin-bottom: 100px;
+  padding-left: 60px; */
   /* padding-left: 50px; */
 }
 
@@ -176,7 +180,7 @@ button:hover {
 }
 
 .projTitlePad {
-  margin-left: 80px;
+  margin-left: 63px;
 }
 
 .chai {
