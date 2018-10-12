@@ -1,90 +1,32 @@
-$primary-color: white;
-$primary-background-color: white;
 
+@import "../node_modules/node-normalize-scss/_normalize.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  color: #8FB9BB;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  margin:0;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @import "./partials/nav";
-
-
-
-
-
-body {
-  background-color: $primary-background-color;
-  color: $primary-color;
-  align-items: center;
-}
-
-h2, h3, h4, li, a {
-  color: white;
-}
-
-.bttcolor {
-  color: #C2DFE0;
-}
-
-.title {
-  color: white;
-}
-
-.jump-to-top {
-  position: static;
-  bottom: 0;
-  right: 0;
-  color: #C2DFE0;
-}
-
-.box {
-  display: flex;
-  background-color: #C2DFE0;
-  width: 95%;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-
-#profileImg {
-  border-radius: 100%;
-  height: 200px;
-  float: right;
-  margin: 20px;
-  &:hover {
-    height: 400px;
-  }
-}
-
-#about {
-  display: flex;
-  align-items: center;
-  margin-top: 300px;
-}
-
-p {
-  padding-left: 20px;
-  color: white;
-}
-
-.project {
-  background-color: #C2DFE0;
-  max-width: 300px;
-  border: 7px solid white;
-}
-
-.skillBox {
-  display: flex;
-  flex-direction: row-reverse;
-  max-width: 300px;
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  flex-flow: column;
-}
+@import "./partials/section";
+@import "./partials/carousel";
+@import "./partials/icons";
+@import "./partials/skills";

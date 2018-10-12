@@ -1,0 +1,25 @@
+.carousel-wrapper{
+transition:translate .2s ease-in;
+}
+
+.carousel {
+  width: 100%;
+  min-height: 370px;
+  overflow: hidden;
+}
+
+.carousel__wrapper {
+  min-height: 400px;
+  width:400%;
+}
+
+.carousel__item {
+  float:left;
+  min-height:400px;
+  width:25%
+}
+
+.carousel__button {
+  color: #C2DFE0;
+  border: none;
+}

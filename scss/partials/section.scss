@@ -1,0 +1,20 @@
+.section{
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 32px 16px 33px;
+  position:relative;
+  &__meimage{
+    float:right;
+    width:200px;
+    margin-left:16px;
+  }
+  &:after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:16px;
+    right:16px;
+    border-bottom:1px solid #eee;
+  }
+}

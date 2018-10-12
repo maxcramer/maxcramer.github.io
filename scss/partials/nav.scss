@@ -1,14 +1,23 @@
-nav {
+.nav {
+  color:#fff;
+  background-color: #8FB9BB;
+  &__inside{
+    width: 1200px;
+    max-width:100%;
+    margin:0 auto;
+  }
   ul {
+    margin:0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #C2DFE0;
     color: white;
+    padding:0;
+    display:block;
+    list-style: none;
   }
   li {
-    list-style: none;
-    padding: 5px;
+    display:inline-block;
     color: white;
     :hover {
       color: blue;
@@ -20,6 +29,10 @@ nav {
   a {
     display: inline-block;
     text-decoration: none;
-    height: 30px;
+    line-height: 16px;
+    padding:16px;
+    text-transform: uppercase;
+    
+    color: inherit;
   }
 }

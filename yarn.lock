@@ -5,3 +5,11 @@
 bulma@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
+
+node-normalize-scss@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/node-normalize-scss/-/node-normalize-scss-8.0.0.tgz#b5be9c851cd9861266524a43a5bc83854506a7d6"
+
+normalize.css@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
