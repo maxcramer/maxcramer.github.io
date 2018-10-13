@@ -358,6 +358,14 @@ img {
 .nav {
   color: #fff;
   background-color: #8FB9BB;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.nav__spacer {
+  padding-top: 48px;
 }
 .nav__inside {
   width: 1200px;
@@ -403,7 +411,7 @@ img {
 .section__meimage {
   float: right;
   width: 200px;
-  margin-left: 16px;
+  margin-left: 32px;
 }
 .section:after {
   content: "";
@@ -435,9 +443,55 @@ img {
   width: 25%;
 }
 
+.carousel__buttons {
+  margin: -8px;
+}
+
 .carousel__button {
-  color: #C2DFE0;
+  color: #8FB9BB;
   border: none;
+  background: transparent;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  padding-bottom: 32px;
+}
+.carousel__button:hover {
+  outline: none;
+}
+
+.carousel__container {
+  margin: -16px;
+}
+
+.carousel__image, .carousel__description {
+  padding: 16px;
+}
+
+.carousel__image img {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .carousel__container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .carousel__image {
+    width: 33.3333333333%;
+    float: left;
+  }
+
+  .carousel__description {
+    width: 66.6666666667%;
+    float: left;
+  }
+}
+a {
+  text-decoration: none;
+  color: #8FB9BB;
 }
 
 .icons {
@@ -508,6 +562,16 @@ img {
   .skills--full {
     width: 100%;
   }
+}
+.footer {
+  background-color: #8FB9BB;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

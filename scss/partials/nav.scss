@@ -1,11 +1,22 @@
 .nav {
   color:#fff;
   background-color: #8FB9BB;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1;
+
+  &__spacer{
+      padding-top:48px;
+  }
+
   &__inside{
     width: 1200px;
     max-width:100%;
     margin:0 auto;
   }
+
   ul {
     margin:0;
     display: flex;
@@ -32,7 +43,7 @@
     line-height: 16px;
     padding:16px;
     text-transform: uppercase;
-    
+
     color: inherit;
   }
 }

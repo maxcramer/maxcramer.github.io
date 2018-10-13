@@ -18,8 +18,51 @@ transition:translate .2s ease-in;
   min-height:400px;
   width:25%
 }
-
+.carousel__buttons{
+  margin:-8px;
+}
 .carousel__button {
-  color: #C2DFE0;
+  color: #8FB9BB;
   border: none;
+  background: transparent;
+  outline:none;
+  padding: 8px;
+  cursor: pointer;
+  padding-bottom: 32px;
+
+  &:hover{
+    outline: none;
+  }
+}
+.carousel__container{
+  margin: -16px;
+}
+.carousel__image,.carousel__description{
+  padding: 16px;
+}
+.carousel__image img{
+  width: 100%;
+}
+@media(min-width:600px){
+
+  .carousel__container:after{
+    content:"";
+    display: block;
+    clear: both;
+
+  }
+  .carousel__image{
+      width:(1/3*100%);
+      float:left;
+
+  }
+  .carousel__description{
+      width:(2/3*100%);
+      float:left;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #8FB9BB;
 }
