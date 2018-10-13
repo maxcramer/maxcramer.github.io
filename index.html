@@ -21,10 +21,10 @@
     <nav class=nav>
         <div class="nav__inside">
             <ul>
-                <li><a href="#about">About Max</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="scroll" href="#about">About Max</a></li>
+                <li><a class="scroll" href="#skills">Skills</a></li>
+                <li><a class="scroll" href="#projects">Projects</a></li>
+                <li><a class="scroll" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -32,10 +32,10 @@
 
     </div>
 </header>
-<main>
+<main class="section__wrapper">
     <section class="section" id="about">
         <img src="https://i.imgur.com/7V7G5ht.png" alt="MaxCramer" class="section__meimage">
-        <h1 class="section__title">Max Cramer's Portfolio</h1>
+        <h1 class="section__title section__title--intro">Max Cramer</h1>
         <div class="section__content cf">
 
             <p>
@@ -196,6 +196,24 @@
                     </div>
                 </div>
                 <div class="skills">
+                    <h4 class="skills__title">Languages</h4>
+                    <div class="icons">
+                        <div class="icons__item">
+                            <img class="icon is-medium"
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/1024px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png"
+                                 alt="English Flag">
+                            <span>English (native)</span>
+                        </div>
+                        <div class="icons__item">
+                            <img class="icon is-medium"
+                                 src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png"
+                                 alt="Spanish Flag">
+                            <span>Spanish (conversational)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills">
                     <h4 class="skills__title">Soft Skills</h4>
                     <div class="icons icons--vertical">
                         <div class="icons__item">
@@ -255,23 +273,6 @@
                                  src="https://ubisafe.org/images/camera-transparent-logo-png-5.png"
                                  alt="Photography">
                             <span>Photography</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h4 class="title softSkill is-4">Languages</h4>
-                    <div class="icons">
-                        <div class="icons__item">
-                            <img class="icon is-medium"
-                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/1024px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png"
-                                 alt="English Flag">
-                            <span>English (native)</span>
-                        </div>
-                        <div class="icons__item">
-                            <img class="icon is-medium"
-                                 src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png"
-                                 alt="Spanish Flag">
-                            <span>Spanish (conversational)</span>
                         </div>
                     </div>
                 </div>
@@ -350,13 +351,13 @@
                             <img id="eatNat" src="https://i.imgur.com/h8slwSE.png"/>
                         </div>
 
-
+                        <div class="carousel__description">
                         <h4 class="carousel__title">Eat Natural
                             <a class="fab fa-lg fa-github " href="https://github.com/maxcramer/project2"></a>
                             <a class="fas fa-lg fa-link "
                                href="https://maxproject2eatnatural.herokuapp.com/"></a>
                         </h4>
-                        <div class="carousel__description">
+
                         <span class="carousel__byline">1 Week | Individual</span>
                         <p class="carousel__paragraph">
                             This was my first attempt at a database styled application. The aim of this project
@@ -610,8 +611,8 @@
     </section>
     <section class="section" id="contact">
         <h2 class="section__title">Contact</h2>
-        <div class="section__content">
-            <ul class="column projTitlePad">
+        <div class="section__content section__content--contact">
+            <ul>
                 <li><i class="far fa-envelope"></i> info@maxcramer101.com</li>
                 <li><a href="https://github.com/maxcramer"><i class="fab fa-github"></i> Click here to view Max's Github</a>
                 </li>
@@ -620,10 +621,11 @@
             </ul>
         </div>
     </section>
-    <footer class="footer">
-        <span>&copy maxcramer101.com 2018</span>
-    </footer>
+
 </main>
+<footer class="footer">
+    <span>&copy maxcramer101.com 2018</span>
+</footer>
 <script src="js/app.js" async></script>
 </body>
 </html>

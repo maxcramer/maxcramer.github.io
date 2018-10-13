@@ -343,6 +343,10 @@ body {
   letter-spacing: 0.05em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -363,6 +367,12 @@ img {
   left: 0;
   right: 0;
   z-index: 1;
+  font-size: 11px;
+}
+@media (min-width: 600px) {
+  .nav {
+    font-size: 16px;
+  }
 }
 .nav__spacer {
   padding-top: 48px;
@@ -420,6 +430,23 @@ img {
   left: 16px;
   right: 16px;
   border-bottom: 1px solid #eee;
+}
+.section__title {
+  font-size: 26px;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+.section__title--intro {
+  font-size: 32px;
+}
+.section__content--contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 16px;
+}
+
+.section__wrapper > .section:last-child:after {
+  border-bottom: 0;
 }
 
 .carousel-wrapper {
@@ -494,13 +521,25 @@ a {
   color: #8FB9BB;
 }
 
+.carousel__title {
+  font-size: 22px;
+  margin: 0 0 16px 0;
+}
+
+.carousel__technology {
+  font-size: 16px;
+  margin: 16px 0 8px 0;
+}
+
 .icons {
   margin: 0 -8px;
   text-align: left;
+  font-size: 13px;
 }
 .icons:after {
   content: "";
   clear: both;
+  display: block;
 }
 
 .icons__item {
@@ -511,7 +550,7 @@ a {
   height: 100px;
 }
 .icons__item img {
-  max-width: 50px;
+  max-width: 28px;
   margin: 0 auto;
 }
 .icons__item span {
@@ -541,6 +580,11 @@ a {
 
 .skills {
   padding: 16px;
+}
+
+.skills__title {
+  font-size: 22px;
+  margin: 0 0 16px 0;
 }
 
 @media (min-width: 600px) {

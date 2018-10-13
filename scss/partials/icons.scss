@@ -1,9 +1,12 @@
 .icons {
   margin:0 -8px;
   text-align: left;
+  font-size: 13px;
+
   &:after{
-    content:"";
+    content: "";
     clear: both;
+    display: block;
   }
 }
 .icons__item{
@@ -13,7 +16,7 @@
   width:80px;
   height:100px;
   img{
-    max-width: 50px;
+    max-width: 28px;
     margin:0 auto;
   }
   span{
