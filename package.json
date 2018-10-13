@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.1",
+    "node-normalize-scss": "^8.0.0",
+    "normalize.css": "^8.0.0"
+  },
+  "scripts": {
+    "watch": "sass --watch scss/main.scss:css/style.css",
+    "build": "sass scss/main.scss:css/style.css"
   }
 }

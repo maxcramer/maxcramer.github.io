@@ -1,0 +1,44 @@
+.icons {
+  margin:0 -8px;
+  text-align: left;
+  font-size: 13px;
+
+  &:after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+.icons__item{
+  padding:8px;
+  display:block;
+  float:left;
+  width:80px;
+  height:100px;
+  img{
+    max-width: 28px;
+    margin:0 auto;
+  }
+  span{
+    display:inline-block;
+    margin-top:8px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.icons--vertical{
+  .icons__item{
+    width:100%;
+    height:auto;
+  }
+  img{
+    float: left;
+      width: 40px;
+      margin: 0px 8px 0px 0;
+  }
+  span{
+    text-align: left;
+    display: inline;
+  }
+}
