@@ -1,0 +1,37 @@
+.section{
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 32px 16px 33px;
+  position:relative;
+  &__meimage{
+    float:right;
+    width:200px;
+    margin-left:32px;
+  }
+  &:after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:16px;
+    right:16px;
+    border-bottom:1px solid #eee;
+  }
+  &__title {
+    font-size: 26px;
+    padding:0;
+    margin:0 0 16px 0;
+    &--intro{
+      font-size:32px;
+    }
+  }
+  &__content--contact ul{
+    list-style: none;
+    padding:0;
+    margin:32px 0 16px;
+  }
+}
+
+.section__wrapper > .section:last-child:after{
+  border-bottom: 0 ;
+}
