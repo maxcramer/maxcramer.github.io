@@ -461,13 +461,13 @@ img {
 
 .carousel__wrapper {
   min-height: 400px;
-  width: 400%;
+  width: 600%;
 }
 
 .carousel__item {
   float: left;
   min-height: 400px;
-  width: 25%;
+  width: 16.6667%;
 }
 
 .carousel__buttons {
